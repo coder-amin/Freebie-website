@@ -1,0 +1,526 @@
+/* =============== */
+/* BASIC SETUP */
+/* =============== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    color: #242f51;
+}
+
+/* =============== */
+/* REUSABLE COMPONANTS */
+/* =============== */
+.row{
+    max-width: 117rem;
+    margin: auto;
+}
+.little-description{
+    width: 55%;
+    margin: auto;
+    margin-top: 3rem;
+}
+p{
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    margin: 1.5rem 0;
+}
+.box{
+    padding: 4rem;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+img{
+    max-width: 100%;
+}
+.icon-img{
+    width: 8rem;
+    margin: 2rem 0;
+    margin-right: 3rem;
+}
+.btn{
+    font-size: 1.6rem;
+    color: #fff;
+    text-transform: capitalize;
+    background: #2500f9;
+    padding: 1rem 2rem;
+    display: inline-block;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+}
+
+/* =============== */
+/* HEADING SETUP */
+/* =============== */
+
+h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 7rem;
+    margin: .5rem 0;
+}
+h2 {
+    font-size: 3.6rem;
+    line-height: 4.6rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+h4{}
+h5{}
+h6{}
+
+/* =============== */
+/* BEGIN CUSTOM CSS */
+/* =============== */
+
+/* =============== */
+/* ==================== START HEADER CSS ==================== */
+/* =============== */
+
+.header-section{
+    background: #fff;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+.freebie-logo {
+    width: 10%;
+    float: left;
+    margin-top: 1rem;
+}
+.main-nav{
+    width: 80%;
+    float: right;
+    text-align: right;
+    margin-top: .5rem;
+}
+.main-nav li{
+    margin: 0 1rem;
+    display: inline-block;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    display: block;
+    color: #242f51;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited{
+    color: #000;
+}
+
+/* =============== STICKY NAVIGATION ============== */
+.sticky-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #EDF3FA;
+    padding: 2rem 0;
+    z-index: 1;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+/* ============ MOBILE MENU CSS ============== */
+
+.openbtn{
+    display: none;
+    float: right;
+    font-size: 4rem;
+    color: #09142E;
+    line-height: 0;
+}
+.sticky-nav .openbtn{
+    margin-top: .5rem;
+}
+.openbtn .fas{
+    line-height: 1.5rem !important;
+}
+.ovarlay-contents{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgba(9, 20, 46, .9);
+    z-index: 1;
+    overflow-x: hidden;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.ovarlay-menu-items{
+    text-align: center;
+}
+.ovarlay-menu-items a{
+    position: relative;
+    top: 10rem;
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: .1rem;
+    padding: 2rem 0;
+    border-bottom: .1rem solid rgba(9, 20, 46, 1);
+    display: block;
+}
+.closebtn{
+    position: absolute;
+    top: 3rem;
+    right: 2rem;
+    font-size: 4rem;
+    color: #fff;
+}
+
+/* =============== */
+/* ==================== START SLIDER CSS ==================== */
+/* =============== */
+
+.slider-section{
+    background: url(../img/slider.png) no-repeat top center;
+    background-size: cover;
+    padding: 12rem 0;
+    height: 100vh;
+}
+.slider-contents{
+    position: relative;
+    left: 0;
+    top: 10rem;
+    width: 40%;
+}
+.slider-contents span {
+    position: relative;
+    font-size: 1.5rem;
+    background: #e2eaed;
+    padding: .5rem 3rem;
+    border-radius: 3rem;
+    font-weight: 500;
+    display: inline-block;
+}
+.slider-contents .far {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    display: inline-block;
+    height: 2.5rem;
+    width: 2.5rem;
+    background: #feaa25;
+    color: #fff;
+    line-height: 2.5rem;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.btn-slider{
+    margin-right: 2rem;
+}
+/* =============== */
+/* ==================== START TESTIMONIAL CSS ==================== */
+/* =============== */
+
+.testimonial-section{
+    padding: 5rem 0;
+    text-align: center;
+}
+.testimonial-section .col:last-child{
+    margin-left: 0 !important;
+}
+/* =============== */
+/* ==================== START FEATURES CSS ==================== */
+/* =============== */
+.features-section{
+    padding: 5rem 0;
+}
+.features-section .box{
+    padding-right: 11rem;
+}
+.features-contents{
+    margin-top: 7rem;
+}
+.feature-content-box{
+    margin-top: 4rem;
+}
+.feature-content-box img{
+    width: 6rem;
+    float: left;
+    margin: 2rem 0;
+    margin-right: 3rem;
+}
+.red{
+    color: #f55767;
+}
+.blue{
+    color: #2563ff;
+}
+.green{
+    color: #40975f;
+}
+
+/* =============== */
+/* ==================== START SUPPORT CSS ==================== */
+/* =============== */
+.support-section{
+    padding: 5rem 0;
+}
+.support-section h2 {
+    padding: 3rem 7rem;
+    border-right: .1rem solid #b9b9b8;
+}
+/* =============== */
+/* ==================== START DESIGN SECTION CSS ==================== */
+/* =============== */
+
+.design-section{
+    padding: 5rem 0;
+}
+.design-section h2{
+    margin-top: 5rem;
+}
+.design-section .box{
+    padding: 8rem;
+}
+
+/* =============== */
+/* ==================== START SERVICE SECTION CSS ==================== */
+/* =============== */
+.service-section{
+    padding: 5rem 0;
+    text-align: center;
+    border-top: .1rem solid #cfcfce;
+}
+
+.service-section .col:nth-child(4){
+    margin-left: 0;
+}
+/* =============== */
+/* ==================== START ANOTHER FEATURE SECTION CSS ==================== */
+/* =============== */
+.another-feature-section{
+    padding: 5rem 0;
+}
+.another-feature-section h2{
+    width: 60%;
+}
+.another-feature-section .little-description{
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.feature-box-wrapper .col:nth-child(3){
+    margin-left: 0;
+}
+.another-feature-section .btn-see-all{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.feature-img{
+    margin-top: 7rem;
+}
+/* =============== */
+/* ==================== START PRICING SECTION CSS ==================== */
+/* =============== */
+.pricing-section{
+    padding: 5rem 0;
+    text-align: center;
+    border-bottom: .1rem solid #cfcfce;
+}
+.pricing-section button{
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+}
+.pricing-boxs-wrapper {
+    padding-bottom: 3rem;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    box-shadow: 1px 1px 15px 3px rgba(235, 239, 241, .9);
+}
+.pricing-boxs-wrapper .pricing-box-top {
+    padding: 4rem 2rem 1.5rem 2rem;
+    background-color: #f5f8fa;
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+.pricing-boxs-wrapper .pricing-box-top span{
+    font-size: 1.5rem;
+    color: #b9b9b8;
+}
+.pricing-box-top p {
+    color: #b9b9b8;
+    margin: .5rem;
+}
+.pricing-section button {
+    padding-right: 4rem;
+    padding-left: .3rem;
+    margin-top: 8rem;
+    border-radius: 3rem;
+    margin-bottom: 4rem;
+    background: #fff;
+    border: .3rem solid #ebebeb;
+    text-transform: capitalize;
+    color: #616368;
+    cursor: pointer;
+}
+.pricing-section .btn{
+    margin-right: 2rem;
+}
+.pricing-boxs-wrapper .pricing-box-bottom ul{}
+.pricing-boxs-wrapper .pricing-box-bottom ul li{
+    margin: 3rem 0;
+    color: #b9b9b8;
+    font-size: 1.6rem;
+}
+.free-trial-btn{
+    display: block;
+    margin-top: 3rem;
+    color: #2500f9;
+}
+/* =============== */
+/* ==================== START FEEDBACK SECTION CSS ==================== */
+/* =============== */
+.feedback-section{
+    padding: 5rem 0;
+}
+.feedback-img-left{
+    margin-top: 10rem;
+}
+section.feedback-section .icon-img {
+    width: 13rem;
+}
+.client-details {
+    margin-top: 5rem;
+}
+.client-details img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    float: left;
+    margin-right: 2rem;
+}
+.client-bio {
+    position: relative;
+    top: 30px;
+}
+.client-details h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+.client-details h4 {
+    font-size: 1.6rem;
+    color: #616368;
+    font-weight: 400;
+}
+
+/* =============== */
+/* ==================== START FAQ SECTION CSS ==================== */
+/* =============== */
+
+.faq-section{
+    padding: 5rem 0;
+}
+.faq-section h2{
+    text-align: center;
+}
+.faq-section .little-description{
+    text-align: center;
+}
+.faq-box-wrapper{
+    margin-top: 5rem;
+}
+.plus{
+    font-size: 3rem;
+}
+/* =============== */
+/* ==================== START DOWNLOAD SECTION CSS ==================== */
+/* =============== */
+.download-section{
+    padding: 5rem 0;
+    border-top: .1rem solid #cfcfce;
+}
+.download-section h2{
+    margin-top: 4rem;
+}
+.download-section p{
+    margin-bottom: 5rem;
+}
+/* =============== */
+/* ==================== START FOOTER SECTION CSS ==================== */
+/* =============== */
+.footer-section{
+    padding: 10rem 0;
+    background-color: #09142e;
+    text-align: center;
+}
+.footer-section .main-nav{
+    text-align: center;
+    width: 100%;
+    float: none;
+    margin: 5rem 0;
+}
+.footer-section .main-nav li a:link,
+.footer-section .main-nav li a:visited{
+    color: #fff;
+}
+.footer-section .footer-social{
+    margin-bottom: 5rem;
+}
+.footer-section .footer-social li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+.footer-section .footer-social li a:link, 
+.footer-section .footer-social li a:visited {
+    color: #273043;
+    display: block;
+    font-size: 3rem;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.footer-section .footer-social li:hover a:link, 
+.footer-section .footer-social li:hover a:visited {
+    color: #fff;
+}
+.footer-section span{
+    font-size: 1.5rem;
+    color: #39455e;
+}

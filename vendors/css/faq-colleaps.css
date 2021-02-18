@@ -1,0 +1,39 @@
+.accordion-container {
+    margin: 0 auto 100px;
+    }
+    .accordion-container h3 {
+    background-color: #f5f7fa;
+    background-image: -moz-linear-gradient( center bottom, rgb(0,93,124) 0%, rgb(0,136,181) 100%);
+    background-image: -o-linear-gradient( center bottom, rgb(0,93,124) 0%, rgb(0,136,181) 100%);
+    background-image: -webkit-linear-gradient( left bottom, left top, color-stop(0, rgb(0,93,124)), color-stop(1, rgb(0,136,181)));
+    background-image: -ms-linear-gradient(top, rgb(0,93,124) 0%, rgb(0,136,181) 100%);
+    background-image: linear-gradient(top, rgb(0,93,124) 0%, rgb(0,136,181) 100%);
+    border-radius: 5px;
+    margin: 2rem auto;
+    text-decoration: none;
+    }
+    .accordion-container h3 span {
+    border-radius: 5px;
+    display: block;
+    font-size: 1.8rem;
+    padding: 3%;
+    }
+    .accordion-container h3 a {
+    float: right;
+    cursor: pointer;
+    }
+    .accordion-container .minusTwo, .accordion-container .minus {
+    display: none;
+    }
+    .info {
+    display: none;
+    margin: 0 auto;
+    padding: 2% 5%;
+    }
+    .info h4 {
+    font-weight: bold;
+    text-shadow: 1px 1px #555;
+    }
+    .info .btn {
+    margin: 10px 0;
+    }

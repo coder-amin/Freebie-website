@@ -1,0 +1,218 @@
+@media only screen and (max-width:1200px){
+    .row{
+        max-width: 100%;
+        margin: 0 2rem;
+    }
+    .support-section{
+        text-align: center;
+    }
+    .another-feature-section h2 {
+        font-size: 3rem;
+    }
+    .another-feature-section p{
+        font-size: 1.4rem;
+    }
+}
+@media only screen and (max-width:1024px){
+    .header-section .btn-hero{
+        display: none;
+    }
+    .slider-section{
+        height: 50vh;
+    }
+    .slider-contents {
+        top: 3rem;
+    }
+    h1 {
+        font-size: 3.5rem;
+        line-height: 5rem;
+    }
+    h2 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    .main-nav{
+       display: none;
+    }
+    .openbtn{
+       display: block;
+    }
+    .another-feature-section h2 {
+        width: 100%;
+    }
+    .little-description {
+        width: 100%;
+    }
+    .box{
+        padding: 3rem;
+    }
+}
+@media only screen and (max-width:980px){
+    .slider-contents {
+        width: 50%;
+    }
+    .box{
+        padding: 0;
+    }
+}
+@media only  screen and (max-width: 768px){
+    h2 {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+    .header-section{
+        padding: 3rem 0;
+    }
+    .slider-section{
+        padding: 3rem 0;
+        height: 50vh;
+    }
+    
+    .features-section .span_1_of_2{
+        width: 100%;
+    }
+    .support-section h2 {
+        padding: 1rem 1rem;
+    }
+    .design-section .span_1_of_2{
+        text-align: center;
+        width: 100%;
+    }
+    .design-section .col{
+        margin-left: 0;
+    }
+    .design-section .box{
+        padding: 0;
+    }
+    .another-feature-section{
+        padding: 0;
+        text-align: center;
+    }
+    .another-feature-section .span_1_of_2{
+        width: 100%;
+    }
+    .another-feature-section .feature-box-wrapper .span_1_of_2{
+        width: 49.2%;
+    }
+    .pricing-section .span_1_of_4{
+        width: 49.2%;
+    }
+    .pricing-section .span_1_of_4{
+        margin: 0;
+    }
+    .pricing-section .span_1_of_4:nth-child(2){
+        margin-right: 1.5%;
+    }
+    .icon-img { 
+        margin-right: 0;
+    }
+   
+}
+@media only  screen and (max-width: 480px){
+    h1 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    h2 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    h3 {
+        font-size: 1.6rem;
+    }
+    p {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    a {
+        font-size: 1.3rem;
+    }
+    .btn {
+        font-size: 1.3rem;
+    }
+    .freebie-logo {
+        width: 30%;
+        margin-top: 0;
+    }
+    .slider-contents span {
+        font-size: 1rem;
+    }
+    .slider-contents .far {
+        top: .1rem;
+        height: 2rem;
+        width: 2rem;
+        line-height: 2rem;;
+    }
+    .slider-contents {
+        width: 100%;
+    }
+    .testimonial-section .span_1_of_5{
+        width: 18.72%;
+    }
+    .features-section{
+        padding: 0rem;
+        text-align: center;
+    }
+    .features-section .box {
+        padding-right: 0rem;
+    }
+    .feature-content-box img {
+        float: none;
+        margin: 1rem 0;
+        margin-right: 0;
+    }
+    .features-contents {
+        margin-top: 0;
+    }
+    .support-section h2 {
+        border-bottom: .1rem solid #b9b9b8;
+    }
+    .support-section h2 {
+        border-right: none;
+    }
+    .another-feature-section h2{
+        font-size: 2rem;
+    }
+    .another-feature-section p {
+        font-size: 1.3rem;
+    }
+    .another-feature-section .feature-box-wrapper .span_1_of_2 {
+        width: 100%;
+    }
+    .another-feature-section .btn-see-all{
+        margin-top: 2rem;
+    }
+    .pricing-section button{
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+    .pricing-section .span_1_of_4{
+        width: 100%;
+        margin: 2rem 0;
+    }
+    .feedback-img-left{
+        margin: 2rem 0;
+    }
+    .accordion-container{
+        margin-bottom: 2rem;
+    }
+    .download-section{
+        text-align: center;
+    }
+    .download-section h2{
+        margin-top: 1rem;
+    }
+    .footer-section{
+        padding: 3rem 0;
+    }
+    .footer-section span {
+        font-size: 1rem;
+    }
+    .footer-section .footer-social{
+        margin-top: 2rem;
+    }
+
+}
